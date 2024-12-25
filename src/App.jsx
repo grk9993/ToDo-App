@@ -30,7 +30,7 @@ import React, { useState } from 'react';
       return (
         <div
           className="container mx-auto p-8 bg-white rounded-lg shadow-lg"
-          style={{ maxWidth: '500px' }}
+          style={{ maxWidth: '600px' }}
         >
           <h1 className="text-2xl font-bold text-center mb-4">Todo App</h1>
           <AddTodo onAddTodo={addTodo} />
@@ -39,7 +39,7 @@ import React, { useState } from 'react';
             onToggleComplete={toggleComplete}
             onDeleteTodo={deleteTodo}
           />
-          <div className="mt-4 flex justify-between items-center">
+          <div className="mt-4 flex justify-between items-center mx-4">
             <p className="text-sm text-gray-600">
               You have {pendingTasks} pending tasks
             </p>

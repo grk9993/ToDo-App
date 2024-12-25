@@ -11,7 +11,7 @@ import React, { useState } from 'react';
       };
 
       return (
-        <form onSubmit={handleSubmit} className="mb-4 flex">
+        <form onSubmit={handleSubmit} className="mb-4 flex" style={{ width: '95%' }}>
           <input
             type="text"
             value={input}
